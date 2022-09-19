@@ -3,7 +3,7 @@ project:
   output-dir: docs
 website:
   page-footer: 
-    center: "Andrienko Mishnev Brusentceva"
+    center: "Brusentceva Andrienko Mishnev Sobur Staritskaya"
     background: secondary
     border: false
   page-navigation: true
