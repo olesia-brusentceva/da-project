@@ -1,0 +1,33 @@
+project:
+  type: website
+website:
+  page-footer: 
+    center: "Andrienko Mishnev Brusentceva"
+    background: secondary
+    border: false
+  page-navigation: true
+  title: "МП-41"
+  subtitle: "Andrienko Mishnev Brusentceva"
+  sidebar:
+    background: light
+    type: light
+    style: "docked"
+    search: true
+    contents:
+      - section: "Розділи"
+        contents:
+          - index.qmd
+          - par1.qmd
+          - par2.qmd
+          - par3.qmd
+          - par4.qmd
+          - par5.qmd
+          - par6.qmd
+
+format:
+  html:
+    theme: pulse
+    css: styles.css
+
+editor: visual
+

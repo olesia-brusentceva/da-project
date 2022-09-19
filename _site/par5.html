@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="generator" content="quarto-0.9.80">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>МП-41 - Незалежність баз данних</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+
+  <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="site_libs/quarto-nav/headroom.min.js"></script>
+  <script src="site_libs/clipboard/clipboard.min.js"></script>
+  <meta name="quarto:offset" content="./">
+  <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+  <script src="site_libs/quarto-search/fuse.min.js"></script>
+  <script src="site_libs/quarto-search/quarto-search.js"></script>
+  <link href="./par6.html" rel="next">
+  <link href="./par4.html" rel="prev">
+  <script src="site_libs/quarto-html/quarto.js"></script>
+  <script src="site_libs/quarto-html/popper.min.js"></script>
+  <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="site_libs/quarto-html/anchor.min.js"></script>
+  <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <script src="site_libs/bootstrap/bootstrap.min.js"></script>
+  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <script id="quarto-search-options" type="application/json">{
+    "location": "sidebar",
+    "copy-button": false,
+    "collapse-after": 2,
+    "panel-placement": "start",
+    "type": "textbox",
+    "limit": 20,
+    "language": {
+      "search-no-results-text": "No results",
+      "search-matching-documents-text": "matching documents",
+      "search-copy-link-title": "Copy link to search",
+      "search-hide-matches-text": "Hide additional matches",
+      "search-more-match-text": "more match in this document",
+      "search-more-matches-text": "more matches in this document",
+      "search-clear-button-title": "Clear",
+      "search-detached-cancel-button-title": "Cancel",
+      "search-submit-button-title": "Submit"
+    }
+  }</script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="docked fullcontent">
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Незалежність баз данних</h1>
+      <button type="button" class="quarto-btn-toggle btn">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">МП-41</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-" aria-expanded="true">Розділи</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Трішки загального</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./par1.html" class="sidebar-item-text sidebar-link">Приклад для ознайомлення</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./par2.html" class="sidebar-item-text sidebar-link">Загальне визначення системи бази данних</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./par3.html" class="sidebar-item-text sidebar-link">Загальне визначення бази данних</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./par4.html" class="sidebar-item-text sidebar-link">Призначення баз данних</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./par5.html" class="sidebar-item-text sidebar-link active">Незалежність баз данних</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./par6.html" class="sidebar-item-text sidebar-link">Реляційні та інші системи</a>
+  </div>
+</li>
+    </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<header id="title-block-header" class="quarto-title-block default">
+
+<div class="quarto-title"><h1 class="title d-none d-lg-block display-7">Незалежність баз данних</h1></div></header>
+<div id="div1" style="font-family: serif; font-size: 20px;">
+<p><strong>Незалежність баз даних</strong></p>
+<p>Фізична незалежність даних означає, що фізичне розташування та організація даних може змінюватися, не викликаючи при цьому змін загальної логічної структури даних або прикладних програм.</p>
+<p><strong><em>Базові складові, які забезпечують незалежність даних</em></strong></p>
+<p>Щоб забезпечити незалежність даних повинна бути максимально можливо відділена модель даних від її реалізації.</p>
+<p>Безпосередня реалізація даних виконується системою керування баз даних (СКБД). У цій системі, щоб забезпечити незалежність даних потрібно реалізувати наступні елементи:</p>
+<p>• <em>збережуване поле</em> – це екземпляр, що містить інформацію про тип одного значущого елементу на основі якого формуються дані цього типу.</p>
+<p>• <em>збережуваний запис</em> – є набором зв’язаних збережуваних полів, визначених відповідними типами даних;</p>
+<p>• <em>збережуваний файл</em> – це є набір декількох екземплярів збережуваних записів, які мають однаковий тип.</p>
+<p>Нижче зображено приклад збережуваної бази даних, яка містить збережувані поля, записи і файли. Ця база даних використовує одну таблицю (як приклад), в якій формується перелік абонентів з їх адресами та телефонними номерами.</p>
+</div>
+<p><img src="ex1.jpg" class="img-fluid"></p>
+<div id="div2" style="font-family: serif; font-size: 20px;">
+<p><strong><em>Основні аспекти структур зберігання змінюваних даних</em></strong></p>
+<p>Незалежність даних повинна максимально захищати застосунок від змін, що можуть виникати в даних. При активному використанні база даних може зростати і розвиватись. Якщо дані незалежні, то збільшення кількості даних не повинно негативно впливати на роботу застосунку.</p>
+<p>З метою захисту застосунку системи керування базами повинні враховувати наступні аспекти структури зберігання змінюваних даних.</p>
+<p><strong>Спосіб представлення числових даних.</strong> Для кожного формату формується значення відповідних параметрів (вибір системи числення, кількість знаків після коми тощо)</p>
+<p><strong>Спосіб представлення символьних даних.</strong>&nbsp;Важливим є використання відомих існуючих кодувань символів (ASCII, Unicode та інше).</p>
+<p><strong>Корегування одиниць виміру для числових даних.</strong>&nbsp;Налаштування представлення числових даних у полях таблиці (метри, кілометри, дюйми тощо).</p>
+<p><strong>Способи кодування даних.</strong>&nbsp;Тут важливим є те, яким чином кодуються ті чи інші категорії даних. Наприклад, кольори можна кодувати цифрами, наборами біт, рядковими позначеннями тощо.</p>
+<p><strong>Представлення логічних полів як віртуальних</strong>. Недоцільно зберігати суми збережуваних полів, якщо їх можна обчислювати “на льоту” та відображати у логічних полях. Поля, які обчислюються, ще називають&nbsp;<strong><em>віртуальними</em></strong>&nbsp;полями (virtual), а обчислені значення називаються&nbsp;<strong><em>непрямими</em></strong>.</p>
+<p><strong>Забезпечення правильної структури збережуваних записів.</strong>&nbsp;Структура збережуваних записів передбачає одну з можливих операцій:</p>
+<p>об’єднання інформативних полів декількох таблиць в одну таблицю. розбиття записів таблиці на декілька підтаблиць. Використовується у випадку, коли потрібно оптимізувати швидкодію шляхом перенесення рідковикористовуваних частин таблиці у більш повільні пристрої зчитування/запису.</p>
+<p>Наприклад, наступні дві таблиці можуть бути об’єднані в одну.</p>
+</div>
+<div id="div3" style="font-family: serif; font-size: 20px;">
+<p>Об’єднання таблиць у випадку інтеграції додатків</p>
+<p><img src="pic1.jpg" class="img-fluid"></p>
+<p>Відповідно, навпаки, поля наступної таблиці можуть бути розбиті на частини. <img src="pic2.jpg" class="img-fluid"></p>
+<p>Забезпечення представлення структури збережуваних файлів різними способами. (використання таблиць з індексами, використання послідовності (ланцюжка) покажчиків або використання асоціативних таблиць (хеш таблиць)). Усі способи повинні забезпечувати максимальну ефективність виконання застосунку i основну вимогу до збереження даних, а саме: жоден з способів збереження даних не повинен впливати на застосунок, що оперує цими даними.</p>
+</div>
+
+
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    setTimeout(function() {
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./par4.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Призначення баз данних</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./par6.html" class="pagination-link">
+        <span class="nav-page-text">Реляційні та інші системи</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Andrienko Mishnev Brusentceva</div>
+  </div>
+</footer>
+
+
+</body></html>
