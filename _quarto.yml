@@ -10,7 +10,7 @@ website:
   title: "МП-41"
   subtitle: "Andrienko Mishnev Brusentceva"
   sidebar:
-    background: light
+    background: secondary
     type: light
     style: "docked"
     search: true
