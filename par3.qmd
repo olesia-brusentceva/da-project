@@ -1,5 +1,5 @@
 ---
-title: "Загальне визначення бази данних"
+title: "Загальне визначення бази ДАНИХ"
 ---
 
 ::: {#div1 style="font-family: serif; font-size: 20px;"}
